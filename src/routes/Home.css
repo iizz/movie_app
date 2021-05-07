@@ -1,16 +1,5 @@
 * {
     box-sizing: border-box;
-    --base-blue: 222, 89%;
-    --palette-blue-10: hsla(var(--base-blue), 10%, 100%);
-    --palette-blue-20: hsla(var(--base-blue), 20%, 100%);
-    --palette-blue-30: hsla(var(--base-blue), 30%, 100%);
-    --palette-blue-40: hsla(var(--base-blue), 40%, 100%);
-    --palette-blue-50: hsla(var(--base-blue), 50%, 100%);
-    --palette-blue-60: hsla(var(--base-blue), 60%, 100%);
-    --palette-blue-70: hsla(var(--base-blue), 70%, 100%);
-    --palette-blue-80: hsla(var(--base-blue), 80%, 100%);
-    --palette-blue-90: hsla(var(--base-blue), 90%, 100%);
-    --palette-blue-100: hsla(var(--base-blue), 100%, 100%);
 }
 
 
@@ -20,6 +9,17 @@ body {
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --base-blue: 222, 89%;
+  --palette-blue-10: hsla(var(--base-blue), 10%, 100%);
+  --palette-blue-20: hsla(var(--base-blue), 20%, 100%);
+  --palette-blue-30: hsla(var(--base-blue), 30%, 100%);
+  --palette-blue-40: hsla(var(--base-blue), 40%, 100%);
+  --palette-blue-50: hsla(var(--base-blue), 50%, 100%);
+  --palette-blue-60: hsla(var(--base-blue), 60%, 100%);
+  --palette-blue-70: hsla(var(--base-blue), 70%, 100%);
+  --palette-blue-80: hsla(var(--base-blue), 80%, 100%);
+  --palette-blue-90: hsla(var(--base-blue), 90%, 100%);
+  --palette-blue-100: hsla(var(--base-blue), 100%, 100%);
   background-color: var(--palette-blue-90); /* #eff3f7; */
   height: 100%;
 }

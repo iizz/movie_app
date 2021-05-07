@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  padding: 70px 50px 50px;
+  padding: 90px 50px 50px;
 }
 
 .movies .movie {
@@ -63,4 +63,30 @@
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+	.movies .movie {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .movies {
+    padding: 90px 0;
+  }
+
+  .movies .movie {
+    justify-content: center;
+  }
+
+  .movies .movie a {
+    display: block;
+  }
+
+  .movie img {
+    max-width: none;
+    margin-right: 0;
+  }
 }

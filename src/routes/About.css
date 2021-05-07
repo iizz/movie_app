@@ -18,3 +18,16 @@
     display: block;
     margin-top: 10px;
 }
+
+
+@media (max-width: 768px) {
+    .about__container {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about__container {
+        max-width: 90%;
+    }
+}
