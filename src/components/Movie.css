@@ -51,10 +51,11 @@
 }
 
 .movie .movie__genres {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
   margin: 5px 0px;
 }
 
